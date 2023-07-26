@@ -10,6 +10,7 @@
     "version": "16.0.1.0.1",
     "depends": ["web"],
     "data": [
+        "security/ir.model.access.csv",
         "views/ir_exports.xml",
         "views/ir_model.xml",
         "views/ir_model_access.xml",
