@@ -7,7 +7,7 @@ import {session} from "@web/session";
 
 patch(ListController.prototype, {
     setup() {
-        this._super(...arguments);
+        super.setup();
         onWillRender(async () => {
             if (this.isExportEnable) {
                 const is_export_enabled =
